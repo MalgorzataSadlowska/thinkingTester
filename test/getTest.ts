@@ -13,7 +13,7 @@ describe("Get contact list", () => {
       password: "Testing24",
     };
     const loginResponse = await request.post("users/login").send(body);
-    console.log(`respon: ${loginResponse.body}`);
+    console.log(`respon: ${loginResponse.statusCode}`);
 
     // request.get(`contactList?access-token=${token}`).end((err, res) => {
     //   expect(res.body.data).to.not.be.null;
