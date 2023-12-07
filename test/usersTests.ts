@@ -11,7 +11,7 @@ describe("User", () => {
   it("GET /user profile", async () => {
     ///login
     const body = {
-      email: "gochh@o2.pl",
+      email: "gochh11@o2.pl",
       password: "Testing24",
     };
     const loginResponse = await request.post("users/login").send(body);
@@ -29,7 +29,7 @@ describe("User", () => {
 describe("User log in", () => {
   it("POST /log in", async () => {
     const body = {
-      email: "gochh@o2.pl",
+      email: "gochh11@o2.pl",
       password: "Testing24",
     };
     const loggingIn = await request.post("users/login").send(body);
@@ -54,7 +54,7 @@ describe("Add user", () => {
 describe("Update user", () => {
   it("PATCH /update user", async () => {
     const body = {
-      email: "gochh@o2.pl",
+      email: "gochh11@o2.pl",
       password: "Testing24",
     };
     const loginResponse = await request.post("users/login").send(body);
@@ -73,7 +73,7 @@ describe("Update user", () => {
 describe("Update user", () => {
   it("PATCH /update user", async () => {
     const body = {
-      email: "gochh@o2.pl",
+      email: "gochh11@o2.pl",
       password: "Testing24",
     };
     const loginResponse = await request.post("users/login").send(body);
